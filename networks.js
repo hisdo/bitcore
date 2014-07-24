@@ -16,7 +16,7 @@ exports.livenet = {
     height: 0,
     nonce: 1646840231,
     version: 1,
-    prev_hash: buffertools.fill(new Buffer(32), 0),
+    prev_hash: buffertools.fill(new Buffer(20), 0),
     timestamp: 1405094000,
     bits: 504365040,
   },
