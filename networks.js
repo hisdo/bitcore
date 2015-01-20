@@ -4,28 +4,28 @@ var hex = function(hex) {return new Buffer(hex, 'hex');};
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('a6f12642'),
-  addressVersion: 0x49,
-  privKeyVersion: 201,
+  magic: hex('fea503db'),
+  addressVersion: 0x3F,
+  privKeyVersion: 191,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('BE7D2B81B3FFF640D5F6B35AFFD2A5041AAEC83C6F398A5B1F358D3937C62142'),
-    merkle_root: hex('83190C311B8AD72BB411C795227E4C3CC40DA6EE0C0C708D6D9C39F827097905'),
+    hash: hex('DDF24F884C380E5DECE4FA4902E809C1BD714E642CCBD58C3F10642804000000'),
+    merkle_root: hex('D4212C552F872E40CE248CE150E8CF3867379E8FA350C54FFDD478ABA43468CB'),
     height: 0,
-    nonce: 3358327919,
+    nonce: 13067232,
     version: 1,
-    prev_hash: buffertools.fill(new Buffer(14), 0),
-    timestamp: 1407244000,
-    bits: 520355839,
+    prev_hash: buffertools.fill(new Buffer(22), 0),
+    timestamp: 1398300393,
+    bits: 503578623,
   },
   dnsSeeds: [
     'dnsseed1.wampum.org',
     'dnsseed2.wampum.org',
     'dnsseed3.wampum.org'
   ],
-  defaultClientPort: 9112
+  defaultClientPort: 4011
 };
 
 exports.testnet = {
