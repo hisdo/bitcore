@@ -43,7 +43,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmpeterson/bitcore.git"
+    "url": "https://github.com/hisdo/bitcore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
